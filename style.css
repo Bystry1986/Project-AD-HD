@@ -1,0 +1,17 @@
+body {
+  background-color: #545454;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #bdbdbd;
+  margin: 1rem;
+}
+
+header ul {
+  margin: 0 auto;
+  padding: 0.5rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
