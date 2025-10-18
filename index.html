@@ -4,43 +4,150 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projekt AD/HD</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
     <header>
       <ul>
-        <li><img src="/images/icons/logo.png" alt="Logo AD/HD" /></li>
+        <li><img src="images/icons/logo.png" alt="Logo AD/HD" /></li>
         <li>
           <h1>Planner for ADHD people</h1>
         </li>
         <li>
-          <nav><img src="/images/icons/hamburger.svg" alt="" /></nav>
+          <nav><img src="images/icons/hamburger.svg" alt="" /></nav>
         </li>
       </ul>
     </header>
     <main>
       <div id="main-section">
-        <h2>Lorem ipsum dolor sit amet</h2>
+        <h2>Your daily challenges</h2>
         <div class="task-section">
           <ul>
             <li>
               <div class="icon" id="btn-hydration">
                 <img
-                  src="/images/icons/arrow-right.svg"
+                  src="images/icons/arrow-right.svg"
                   role="img"
                   alt="arrow pointing right"
                   id="right"
                 />
                 <img
-                  src="/images/icons/arrow-up.svg"
+                  src="images/icons/arrow-up.svg"
                   role="img"
                   alt="arrow pointing up"
                   id="up"
                 />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Your hydration value</p>
               </div>
             </li>
-            <li class="task-field" id="hydration"></li>
+            <li class="task-field" id="hydration">
+              <ul>
+                <li>
+                  <input
+                    type="checkbox"
+                    name="glass-1"
+                    id="glass-1"
+                    value="0.25"
+                  />
+                  <label for="glass-1">0.25</label>
+                  <input
+                    type="checkbox"
+                    name="glass-2"
+                    id="glass-2"
+                    value="0.25"
+                  />
+                  <label for="glass-2">0.25</label>
+                  <input
+                    type="checkbox"
+                    name="glass-3"
+                    id="glas-3"
+                    value="0.25"
+                  />
+                  <label for="glass-3">0.25</label>
+                  <input
+                    type="checkbox"
+                    name="glass-4"
+                    id="glass-4"
+                    value="0.25"
+                  />
+                  <label for="glass-4">0.25</label>
+                  <input
+                    type="checkbox"
+                    name="glass-5"
+                    id="glass-5"
+                    value="0.25"
+                  />
+                  <label for="glass-5">0.25</label>
+                  <input
+                    type="checkbox"
+                    name="glass-6"
+                    id="glass-6"
+                    value="0.25"
+                  />
+                  <label for="glass-6">0.25</label>
+                  <input
+                    type="checkbox"
+                    name="glass-7"
+                    id="glass-7"
+                    value="0.25"
+                  />
+                  <label for="glass-7">0.25</label>
+                  <input
+                    type="checkbox"
+                    name="glass-8"
+                    id="glass-8"
+                    value="0.25"
+                  />
+                  <label for="glass-8">0.25</label>
+                  <input
+                    type="checkbox"
+                    name="glass-9"
+                    id="glass-9"
+                    value="0.25"
+                  />
+                  <label for="glass-9">0.25</label>
+                  <input
+                    type="checkbox"
+                    name="glass-10"
+                    id="glass-10"
+                    value="0.25"
+                  />
+                  <label for="glass-10">0.25</label>
+                  <input
+                    type="checkbox"
+                    name="glass-11"
+                    id="glass-11"
+                    value="0.25"
+                  />
+                  <label for="glass-11">0.25</label>
+                  <input
+                    type="checkbox"
+                    name="glass-12"
+                    id="glass-12"
+                    value="0.25"
+                  />
+                  <label for="glass-12">0.25</label>
+                  <input
+                    type="checkbox"
+                    name="glass-13"
+                    id="glass-13"
+                    value="0.25"
+                  />
+                  <label for="glass-13">0.25</label>
+                </li>
+                <li id="progres-bar">
+                  <p>sum: <span id="hydration-sum">1.75</span></p>
+                  <progress id="file" value="1.75" max="3"></progress>
+                  <img src="images/icons/check.svg" id="hydration-sign" />
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
         <div class="task-section">
@@ -48,21 +155,41 @@
             <li>
               <div class="icon" id="btn-meals">
                 <img
-                  src="/images/icons/arrow-right.svg"
+                  src="images/icons/arrow-right.svg"
                   role="img"
                   alt="arrow pointing right"
                   id="right"
                 />
                 <img
-                  src="/images/icons/arrow-up.svg"
+                  src="images/icons/arrow-up.svg"
                   role="img"
                   alt="arrow pointing up"
                   id="up"
                 />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Your meals (make that count - no junk food)</p>
               </div>
             </li>
-            <li class="task-field" id="meals"></li>
+            <li class="task-field" id="meals">
+              <ul>
+                <li>
+                  <input type="checkbox" name="meal" id="meal-1" value="1" />
+                  <label for="meal-1">1</label>
+                  <input type="checkbox" name="meal" id="meal-1" value="1" />
+                  <label for="meal-2">2</label>
+                  <input type="checkbox" name="meal" id="meal-1" value="1" />
+                  <label for="meal-3">3</label>
+                  <input type="checkbox" name="meal" id="meal-1" value="1" />
+                  <label for="meal-4">4</label>
+                  <input type="checkbox" name="meal" id="meal-1" value="1" />
+                  <label for="meal-5">5</label>
+                </li>
+                <li id="progres-bar">
+                  <p>sum: <span id="meal-sum">1</span></p>
+                  <progress id="file" value="1" max="5"></progress>
+                  <img src="images/icons/check.svg" id="meals-sign" />
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
         <div class="task-section">
@@ -70,34 +197,66 @@
             <li>
               <div class="icon" id="btn-tasks">
                 <img
-                  src="/images/icons/arrow-right.svg"
+                  src="images/icons/arrow-right.svg"
                   role="img"
                   alt="arrow pointing right"
                   id="right"
                 />
                 <img
-                  src="/images/icons/arrow-up.svg"
+                  src="images/icons/arrow-up.svg"
                   role="img"
                   alt="arrow pointing up"
                   id="up"
                 />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Your tasks for today</p>
               </div>
             </li>
-            <li class="task-field" id="tasks"></li>
+            <li class="task-field" id="tasks">
+              <ul>
+                <li>
+                  <input type="checkbox" name="task" id="task-1" value="1" />
+                  <label for="task-1">Task 1</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="task" id="task-2" value="1" />
+                  <label for="task-2">Task 2</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="task" id="task-3" value="1" />
+                  <label for="task-3">Task 3</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="task" id="task-4" value="1" />
+                  <label for="task-4">Task 4</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="task" id="task-5" value="1" />
+                  <label for="task-5">Task 5</label>
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
       <div id="aside-section">
-        <h2>lorem ipsum</h2>
+        <h2>New tasks</h2>
         <div id="aside-add">
           <img
-            src="/images/icons/plus.svg"
+            src="images/icons/plus.svg"
             role="img"
             alt="plus sign"
             id="btn-plus"
           />
-          <p>lorem ipsum</p>
+          <p>Add task</p>
+        </div>
+        <div id="unprocessed">
+          <ul>
+            <li>new task 1</li>
+            <li>new task 2</li>
+            <li>new task 3</li>
+            <li>new task 4</li>
+            <li>new task 5</li>
+          </ul>
         </div>
       </div>
     </main>
