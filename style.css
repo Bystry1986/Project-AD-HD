@@ -1,11 +1,13 @@
 body {
   background-color: #545454;
-  margin: 0 auto;
+  margin: 1rem;
+  text-align: center;
 }
 
 header {
   background-color: #bdbdbd;
-  margin: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
 }
 
 header ul {
@@ -14,4 +16,22 @@ header ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
+}
+
+main {
+  background-color: #bdbdbd;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+#main-section {
+  margin: 1rem auto;
+  width: 75%;
+}
+
+#aside-section {
+  margin: 1rem auto;
+  width: 25%;
+  border-left: 2px solid black;
 }
