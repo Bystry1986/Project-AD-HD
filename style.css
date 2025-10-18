@@ -1,5 +1,5 @@
 body {
-  background-color: #545454;
+  background-color: #08132b;
   margin: 1rem;
   text-align: center;
 }
@@ -18,20 +18,107 @@ header ul {
   justify-content: space-between;
 }
 
+header img {
+  width: 250px;
+  height: 150px;
+  padding: 0;
+  margin: 0;
+}
+
+header h1 {
+  margin-top: 55px;
+}
+
 main {
-  background-color: #bdbdbd;
+  background-color: #a6a6a6;
   display: flex;
   justify-content: space-between;
   border-radius: 8px;
 }
 
 #main-section {
-  margin: 1rem auto;
+  margin: 1rem 0;
   width: 75%;
+}
+
+#main-section h1 {
+  margin: 0;
+}
+
+#task-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 8px;
+}
+
+main ul {
+  list-style: none;
+  width: 94%;
+  padding: 0 3%;
+}
+
+.icon {
+  display: flex;
+  padding: 0;
+  justify-content: flex-start;
+}
+
+.icon img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 1rem 0;
+}
+
+.icon p {
+  grid-column: span 2 / span 2;
+}
+
+#right {
+  visibility: visible;
+}
+
+#up {
+  position: relative;
+  right: 1.5rem;
+  visibility: hidden;
+}
+
+.task-field {
+  grid-column: span 3 / span 3;
+  grid-row-start: 2;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+  margin-left: 2rem;
+  background-color: #a5acb9;
+  visibility: visible;
 }
 
 #aside-section {
   margin: 1rem auto;
   width: 25%;
   border-left: 2px solid black;
+}
+
+#aside-add {
+  width: 50%;
+  margin-left: 25%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#btn-plus {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 1rem 1rem;
+}
+
+footer {
+  background-color: #bdbdbd;
+  border-radius: 8px;
+}
+
+footer p {
+  padding: 0.25rem;
 }
